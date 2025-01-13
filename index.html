@@ -10,21 +10,62 @@
             padding: 10px;
             border: 5px solid red;
         }
+
+        .mailid:click{
+            color: black;
+            text-decoration: none;
+        }
+
+        .mailid:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        .mailid:link{
+            color: black;
+            text-decoration: none;
+        }
+
+        .mailid:active{
+            color: greenyellow;
+            text-decoration: none;
+        }
+
+        .but{
+            text-align: center;
+            padding: 2%;
+            background-color: red;
+            display: inline-block;
+            border: 10px solid black;
+        }
+        .visit:active, .visit:link, .visit:visited, .visit:hover{
+            color: white;
+            text-decoration: none;
+            font-size: 500%;
+        }
+        .img{
+            border: 5px solid red;
+            padding: 100px
+        }
+
     </style>
 </head>
 <body>
     <header>
         <!-- image section -->
         <div class="logo" title="logo">
-            <img src="./img/favicon.ico" alt="Abishekh Nepal">
+            <img src="./img/pp.jpg" alt="Abishekh Nepal" width="500px" height="500px" class="pp">
         </div>
+        <nav>
+            <a href="#socialmedia">Home</a>
+        </nav>
         <!-- introduction section -->
-        <div class="intro" title="introduction">
+        <div class="intro" title="introduction" style="background-image: url(./img/pp.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
             <h1 style="color: red; background-color: aqua; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size:500% ; text-align: center; border: 2px solid red;">Introduction</h1>
             <b>Name: </b>Abishekh Nepal
             <br>
             <br>
-            <b>Email: </b><a href="mailto:contact@abishekh.com.np">contact@abishekh.com.np</a>
+            <b>Email: </b><a class="mailid" href="mailto:contact@abishekh.com.np">contact@abishekh.com.np</a>
             <br>
             <br>
             <b>Sex: </b>Male
@@ -102,12 +143,12 @@
     </section>
 
     <section class="but">
-        <a href="https://facebook.com/x7b46b2z">Visit Me</a>
+        <a class="visit" href="https://facebook.com/x7b46b2z">Visit Me</a>
     </section>
 
     <footer>
         <!-- social media section -->
-        <div class="socialmedia" title="social media">
+        <div id="socialmedia" title="social media">
             <h1 style="color: pink; background-color: blueviolet; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 100%; text-align: right;">Social Media</h1>
             <button onclick="document.location='https://facebook.com/x7b46b2z'" >Facebook</button>
             <button onclick="document.location='https://instagram.com/x7b46b2z' ">Instagram</button>

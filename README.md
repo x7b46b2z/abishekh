@@ -23,5 +23,8 @@ html colors<br>
 -hsla<br>
 html css
 html link
+html image
+html favicon
+html page title
 
 
