@@ -1,6 +1,6 @@
 this website is for practice and type of dumb haha ;)
 
-Day 1:
+<b>Day 1:</b>
 html introduction <br>
 html editors<br>
 html basic<br>
@@ -12,3 +12,16 @@ html styles<br>
 html formatting<br>
 html quotations<br>
 html comments<br>
+<br>
+<br>
+<b>Day :2</b>
+html colors<br>
+-rgb<br>
+-rgba<br>
+-hex<br>
+-hsl<br>
+-hsla<br>
+html css
+html link
+
+
